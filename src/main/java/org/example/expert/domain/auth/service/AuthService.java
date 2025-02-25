@@ -41,9 +41,18 @@ public class AuthService {
         );
         User savedUser = userRepository.save(newUser);
 
+        /** 수정 전
+         * 회원 가입 후 즉시 JWT 발급
+         * */
+        /*
         String bearerToken = jwtUtil.createToken(savedUser.getId(), savedUser.getEmail(), userRole);
 
         return new SignupResponse(bearerToken);
+        */
+        /** 수정 후
+         * 회원 가입 후 ResponseBody에는 회원의 아이디, 이메일, 역할 정보만 보여주는 것으로 수정
+         */
+        return new SignupResponse(savedUser.getId(),savedUser.getEmail(),savedUser.getUserRole());
     }
 
     @Transactional(readOnly = true)
