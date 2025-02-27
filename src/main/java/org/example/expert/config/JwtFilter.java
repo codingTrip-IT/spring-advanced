@@ -14,6 +14,9 @@ import org.example.expert.domain.user.enums.UserRole;
 
 import java.io.IOException;
 
+/**
+ * JwtFilter: JWT를 검증하고 처리하는 필터 클래스
+ */
 @Slf4j
 @RequiredArgsConstructor
 public class JwtFilter implements Filter {

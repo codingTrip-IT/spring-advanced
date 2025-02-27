@@ -20,6 +20,9 @@ import org.springframework.util.ObjectUtils;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * ManagerService : 관리자 서비스
+ */
 @Service
 @RequiredArgsConstructor
 public class ManagerService {

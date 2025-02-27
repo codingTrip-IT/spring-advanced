@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * UserAdminController : 사용자 관리자 컨트롤러
+ */
 @RestController
 @RequiredArgsConstructor
 public class UserAdminController {

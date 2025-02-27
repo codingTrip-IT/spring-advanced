@@ -15,6 +15,10 @@ import org.example.expert.domain.user.repository.UserRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+/**
+ * AuthService : 인증 관련 비즈니스 로직을 처리하는 서비스
+ * 회원가입, 로그인
+ */
 @Service
 @RequiredArgsConstructor
 public class AuthService {
@@ -49,6 +53,7 @@ public class AuthService {
 
         return new SignupResponse(bearerToken);
         */
+
         /** 수정 후
          * 회원 가입 후 ResponseBody에는 회원의 아이디, 이메일, 역할 정보만 보여주는 것으로 수정
          */

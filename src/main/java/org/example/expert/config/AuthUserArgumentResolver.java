@@ -12,6 +12,9 @@ import org.springframework.web.context.request.NativeWebRequest;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;
 import org.springframework.web.method.support.ModelAndViewContainer;
 
+/**
+ * AuthUserArgumentResolver : 인증된 사용자 정보를 컨트롤러 메서드의 매개변수로 주입하는 ArgumentResolver
+ * */
 public class AuthUserArgumentResolver implements HandlerMethodArgumentResolver {
 
     @Override

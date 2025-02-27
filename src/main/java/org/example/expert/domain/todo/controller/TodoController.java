@@ -12,6 +12,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * TodoController : 일정 컨트롤러
+ */
 @RestController
 @RequiredArgsConstructor
 public class TodoController {

@@ -10,6 +10,9 @@ import org.springframework.data.repository.query.Param;
 
 import java.util.Optional;
 
+/**
+ * TodoRepository : 일정 리포지토리
+ */
 public interface TodoRepository extends JpaRepository<Todo, Long> {
 
     @EntityGraph(attributePaths = {"user"})

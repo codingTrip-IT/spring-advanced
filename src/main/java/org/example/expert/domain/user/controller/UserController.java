@@ -10,6 +10,9 @@ import org.example.expert.domain.user.service.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+/**
+ * UserController : 사용자 컨트롤러
+ */
 @RestController
 @RequiredArgsConstructor
 public class UserController {

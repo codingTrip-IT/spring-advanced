@@ -5,6 +5,9 @@ import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * FilterConfig : JWT 필터를 설정하는 구성 클래스
+ * */
 @Configuration
 @RequiredArgsConstructor
 public class FilterConfig {

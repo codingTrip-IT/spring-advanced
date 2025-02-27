@@ -3,6 +3,10 @@ package org.example.expert.domain.auth.dto.response;
 import lombok.Getter;
 import org.example.expert.domain.user.enums.UserRole;
 
+/**
+ * SignupResponse : 회원가입 응답 DTO
+ * 필드명 : 아이디, 이메일, 사용자권한
+ * */
 @Getter
 public class SignupResponse {
 

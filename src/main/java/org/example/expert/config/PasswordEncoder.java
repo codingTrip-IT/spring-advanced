@@ -3,6 +3,9 @@ package org.example.expert.config;
 import at.favre.lib.crypto.bcrypt.BCrypt;
 import org.springframework.stereotype.Component;
 
+/**
+ * PasswordEncoder : 비밀번호 암호화 및 검증을 위한 클래스
+ */
 @Component
 public class PasswordEncoder {
 

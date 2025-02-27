@@ -10,6 +10,9 @@ import org.example.expert.domain.user.repository.UserRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+/**
+ * UserService : 사용자 서비스
+ */
 @Service
 @RequiredArgsConstructor
 public class UserService {
