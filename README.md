@@ -30,7 +30,7 @@
 
 
 ## 💥 한계점
-
+- Refresh Token에 대해 Spring Secuirty를 사용하지 않는 레퍼런스를 찾기가 어려웠습니다.
 
 ## 📞 Contact
 - [🚗 Visit codingTrip blog](https://codingtrip.tistory.com/)
